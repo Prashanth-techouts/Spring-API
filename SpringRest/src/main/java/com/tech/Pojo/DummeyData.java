@@ -9,6 +9,7 @@ public class DummeyData {
 	@Id
 	private int dummeyId;
 	private String dummeyName;
+	private String dummeyColor;
 	public int getDummeyId() {
 		return dummeyId;
 	}
@@ -20,6 +21,12 @@ public class DummeyData {
 	}
 	public void setDummeyName(String dummeyName) {
 		this.dummeyName = dummeyName;
+	}
+	public String getDummeyColor() {
+		return dummeyColor;
+	}
+	public void setDummeyColor(String dummeyColor) {
+		this.dummeyColor = dummeyColor;
 	}
 	
 	
