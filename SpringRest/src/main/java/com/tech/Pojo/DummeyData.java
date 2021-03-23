@@ -10,6 +10,13 @@ public class DummeyData {
 	private int dummeyId;
 	private String dummeyName;
 	private String dummeyColor;
+	private int dummyNumber;
+	public int getDummyNumber() {
+		return dummyNumber;
+	}
+	public void setDummyNumber(int dummyNumber) {
+		this.dummyNumber = dummyNumber;
+	}
 	public int getDummeyId() {
 		return dummeyId;
 	}
